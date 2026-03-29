@@ -13,8 +13,8 @@ const FAQS = [
     answer: "Every device at SecondLife undergoes a rigorous 40-point inspection by our expert technicians. We test everything from battery health to screen responsiveness and internal hardware to ensure it meets our high standards."
   },
   {
-    question: "Do the phones come with a warranty?",
-    answer: "Yes! All our devices come with a standard 6-month warranty that covers any hardware defects. We also offer extended warranty plans for extra peace of mind."
+    question: "How quickly will I receive my phone?",
+    answer: "We process and ship orders within 24–48 hours. Depending on your location, your device will arrive promptly via our trusted courier partners."
   },
   {
     question: "What is the typical battery health?",

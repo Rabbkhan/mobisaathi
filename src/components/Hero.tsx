@@ -6,7 +6,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Zap, ChevronRight } from 'lucide-react';
-
+import heroBanner from '../images/herobanner.png';
 interface HeroProps {
   onShopClick: () => void;
 }
@@ -51,10 +51,10 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick }) => {
           transition={{ duration: 1, ease: "easeOut" }}
           className="relative"
         >
-          <div className="absolute inset-0 bg-indigo-100 blur-[120px] rounded-full opacity-50" />
+          {/* <div className="absolute inset-0 bg-indigo-100 blur-[120px] rounded-full opacity-50" /> */}
           <div className="relative p-4 bg-white rounded-[3.5rem] shadow-2xl shadow-indigo-100 border border-gray-100">
             <img 
-              src="https://picsum.photos/seed/refurbished/800/1200" 
+              src={heroBanner}
               alt="Refurbished Smartphones" 
               className="w-full max-w-[400px] mx-auto rounded-[3rem] shadow-lg"
               referrerPolicy="no-referrer"
