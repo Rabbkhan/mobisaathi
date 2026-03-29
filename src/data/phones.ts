@@ -126,6 +126,7 @@ export const PHONES: Phone[] = [
     ]
   },
 
+  
   {
     id: 'vivo-y29',
     brand: 'Vivo',
